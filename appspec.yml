@@ -5,4 +5,5 @@ files:
     destination: /var/www
 hooks:
   ApplicationStart:
-    - timeout: 180
+    - location: start.sh
+      timeout: 180
